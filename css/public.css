@@ -1,0 +1,568 @@
+.white-popup {
+    position: relative;
+    background: #FFF;
+    width: auto;
+    margin: 20px auto;
+    padding:10px;
+    min-width: 500px;
+}
+.white-popup-2 {
+    position: relative;
+    background: #FFF;
+    width: auto;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.mfp-close {
+    top: -18px !important;
+    right: -18px !important;
+    background:url('popup_close.png') !important;
+    width: 36px !important;
+    height: 37px !important;
+    font-size:0px !important;
+    background:transparent;
+}
+.mfp-close:hover, .mfp-close:active, .mfp-close:focus{
+    background:transparent;
+}
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
+
+
+/*-- swift form help desk---*/
+.sm-recent-post h4{color: #666;}
+.sm-recent-post a, .sm-recent-post a:hover{ text-decoration: none; }
+.sm-recent-post-img { float: left; width: 25%; }
+.sm-recent-post-content{ float: left; width: 75%; color: #666; }
+.sm-recent-post-content p { margin-bottom: 0; }
+.smfullwidth{
+    width: 100%;text-align: center;overflow: hidden;
+}
+.smhalfwidth{
+    float: left; width: 49%;
+}
+.nwe_smhalfwidth{
+    width: 30%;
+    margin: 0 auto;
+}
+/* Global welcome capture */
+.welcome_capture{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.welcome_capture .wc_inner{
+    max-width: 885px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 15%;
+}
+.welcome_capture .wc_inner .wc_text{
+    font-weight: lighter;
+}
+.welcome_capture .wc_inner .wc_form input[type='text'],
+.welcome_capture .wc_inner .wc_form input[type='email']{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #fcfcfc;
+    border-radius: 2em;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    padding: 10px 0 10px 15px;
+    width: 31%;
+}
+.welcome_capture .wc_inner .wc_form input[type='submit'], #WCBtnContainer button{
+    background: #fcfcfc none repeat scroll 0 0;
+    color: #f16334;
+    font-weight: 600;
+    font-size: 16px;
+    border: 2px solid #fcfcfc;
+    border-radius: 2em;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    width: 31%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.welcome_capture .wc_inner .wc_form{
+    margin: 50px 0 0 0;
+}
+.welcome_capture .wc_close {
+    margin: 30px 30px 0 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.welcome_capture .wc_bottom_close a{
+    bottom: 0;
+    font-size: 90px;
+    left: 50%;
+    line-height: 90px;
+    position: absolute;
+    text-align: center;
+    color: #000;
+}
+.welcome_capture .wc_bottom_close a:hover{
+    color: #000;
+}
+
+/* page welcome capture specific */
+.welcome_capture_specific{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.welcome_capture_specific .wc_specific_inner{
+    max-width: 885px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 15%;
+}
+.welcome_capture_specific .wc_specific_inner .wc_specific_text{
+    font-weight: lighter;
+}
+.welcome_capture_specific .wc_specific_inner .wc_specific_form input[type='text'],
+.welcome_capture_specific .wc_specific_inner .wc_specific_form input[type='email']{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #fcfcfc;
+    border-radius: 2em;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    padding: 10px 0 10px 15px;
+    width: 31%;
+}
+.welcome_capture_specific .wc_specific_inner .wc_specific_form input[type='submit']{
+    background: #fcfcfc none repeat scroll 0 0;
+    color: #f16334;
+    font-weight: 600;
+    border: 2px solid #fcfcfc;
+    border-radius: 2em;
+    height: auto;
+    padding: 14px 10px;
+    text-align: center;
+    width: 31%;
+}
+.welcome_capture_specific .wc_specific_inner .wc_specific_form input[type='submit']:hover{
+    opacity: 0.8;
+}
+.welcome_capture_specific .wc_specific_inner .wc_specific_form{
+    margin: 50px 0 0 0;
+}
+.welcome_capture_specific .wc_specific_close {
+    margin: 30px 30px 0 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+/*pollin widget*/
+.swift_polling_front{
+    display: none;
+    background-color: #5B5A55;
+    border: 1px solid #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    bottom: 0;
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.4);
+    font-family: Tahoma,HelveticaNeue,Arial;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    text-align: left;
+    width: 260px;
+    z-index: 10000001;
+}
+.swift_polling_title{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    bottom: 0;
+    cursor: pointer;
+    height:auto;
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+.swift_polling_title .swift_polling_widget_toggle{
+    background-color: #fff;
+    border-radius: 50%;
+    color: #333;
+    cursor: pointer;
+    font-family: Tahoma,HelveticaNeue,Arial;
+    font-size: 1.19em;
+    font-weight: bold;
+    height: 1.3em;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0.8em;
+    text-align: center;
+    top: 0.5em;
+    width: 1.3em;
+}
+
+.swift_polling_title h2{
+    color: #FFE100;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin: 0;
+    padding-left: 0.9em;
+    text-transform: none;
+    width: 85%;
+}
+.swift_polling_content{
+    color: #fff;
+}
+.swift_polling_ans{
+    padding:0 10px;
+}
+.swift_polling_ans label{
+    display: block;
+    margin: 0 0 5px;
+}
+.swift_polling_ans label:last-child{
+    margin: 0 0;
+}
+.swift_polling_ans input[type='radio']{
+    vertical-align: middle;
+}
+.swift_polling_ans button{
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 5px auto 10px;
+    padding: 0 20px;
+    text-align: center;
+    background: #004488;
+}
+.swift_polling_ans button:hover{
+    opacity: 0.9;
+}
+.validatoin_err{color: red;}
+.poll_success{ color: #fff; font-size: 20px; padding: 60px 0; text-align: center; }
+.label_poll_answer{ background-color: #a2a3a4; border-radius: 3px; padding: 5px; cursor: pointer; }
+.label_poll_answer:hover{ background-color: #FF6E00; color: #FFF; border-radius: 3px; padding: 5px; }
+#FrmSwiftPolling{ padding: 0 0 10px; }
+p.swift_polling_poweredby{font-size: 10px;margin: 0;padding: 0px 10px 5px;text-align: right;color: #ccc;}
+p.swift_polling_poweredby a{color: #ccc;}
+p.swift_polling_poweredby a:hover{text-decoration: none;color: #fff;}
+.cta-content{padding: 15px 15px 30px;overflow: hidden;border-radius: 5px;}
+.cta-content:not(:last-child){
+    margin-bottom: 15px;
+}
+.cta-content h1, .cta-content h2, .cta-content h3, .cta-content h4, .cta-content h5, .cta-content h6{
+    margin: 0 0 10px !important;
+}
+.cta-content ul, .cta-content ol{
+    margin-left: 15px !important;
+    padding-left: 15px !important;
+}
+/*.cta-content ul,.cta-content ol {padding-left: 20px;}*/
+
+
+.modalCloseBtn{ position: absolute; right: 0; top: 0; z-index: 999; }
+.modal { text-align: center; padding: 0!important;z-index: 1050; }
+.modal:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px; }
+.modal-dialog { display: inline-block; text-align: left; vertical-align: middle; }
+/* social */
+.sc_social_popup {
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0px 5px 1px rgba(0, 0, 0, 0.4);
+    font-family: Tahoma,HelveticaNeue,Arial;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: 10000001;
+}
+.left_center{
+    left: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.right_center{
+    right: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.right{
+    bottom: 0;
+    /*left: 10px;*/
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.center{
+    bottom: 0;
+    /*left: 10px;*/
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.left{
+    bottom: 0;
+    /*left: 10px;*/
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.left_center .sc_social_section > ul li,
+.right_center .sc_social_section > ul li{
+    display: block !important;
+}
+
+.sc_social_section{}
+.sc_social_section > ul {list-style: outside none none;margin: 0;padding:0 0;}
+.sc_social_section > ul li {display: inline-block;padding:5px;}
+/*.sc_social_nav > li:first-child {padding: 0 5px 0 0;}
+.sc_social_nav > li:last-child {padding: 0;}*/
+.sc_social_section > ul li a{color: #fff;text-decoration: none;height: 30px;width: 30px;display: block;}
+.sc_social_section > ul li a:before{font-family: "FontAwesome";content: "\f0c1";}
+.sc_social_section > ul li .sc-social-bg{
+    background: #196abc;
+    border-radius: 100%;
+    font-size: 18px;
+    height: 30px;width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+/* ------- Modal --------- */
+.swiftcloud_modal{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;left: 0;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.swiftcloud_modal .swiftcloud_modal_container{
+    width: 650px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+.swiftcloud_modal_header{
+    padding: 15px 15px 15px;
+    border-bottom: 1px solid #ddd;
+}
+.swiftcloud_modal_header h3 {
+    line-height: 23px;
+    margin: 0 !important;
+    padding: 0;
+}
+.swiftcloud_modal_close{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: #ccc;
+}
+#exit-popup .swiftcloud_modal_close,
+#timed-popup .swiftcloud_modal_close,
+#scroll-popup .swiftcloud_modal_close{
+    right: -15px;
+    top: -15px;
+}
+.swiftcloud_modal_close:hover{
+    color: #333;
+}
+.swiftcloud_modal_content{
+    padding: 15px 15px 15px;
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.sc_modal_col-12{
+    float: left;
+    width: 100%;
+    padding: 0 15px 0;
+}
+.sc_modal_col-6 {
+    float: left;
+    width: 50%;
+    padding: 0 15px 0;
+}
+.sc_modal_control_label{
+    display: block;
+}
+.sc_modal_form_group{
+    margin-bottom: 15px;
+}
+.sc_modal_form_group:last-child{
+    margin-bottom: 0;
+}
+.sc_modal_form_control {
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    color: #686868;
+    padding: 0.625em 0.4375em;
+    width: 100%;
+}
+.sc_btn_orange {
+    background-image: none;
+    background-color: #ff7200;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.sc_btn_orange:hover{
+    background-color: #ff9600;
+}
+.sc_form_submit{
+    text-align: center;
+}
+.sc_modal_error, label.error{
+    color: red;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+.inline_offer_wrap {
+    padding: 15px;
+}
+/*.inline-offer-content p{
+    padding: 15px;
+}*/
+#swiftcloud_captured_content_container{
+    padding: 15px 0 0;
+}
+#swiftcloud_captured_content_container p:last-child{
+    margin-bottom: 0;
+}
+/* Exit popup */
+.swiftcloud_modal#exit-popup .swiftcloud_modal_container{
+    /*    left:50px;
+        top:50px;
+        margin: 0;*/
+}
+#exit-popup h1,
+#exit-popup h2,
+#exit-popup h3,
+#exit-popup h4,
+#exit-popup h5,
+#exit-popup h6{
+    display: inline-block;
+}
+#exit-popup .swiftcloud_modal_header h3 {
+    font-size: 28px;
+    color: #f40800;
+    margin: 0 !important;
+    padding: 0;
+    vertical-align: middle;
+}
+.exit_popup_stop_img{
+    max-width: 30px;
+    margin: 0 15px 0 0;
+}
+.swift_form_error{
+    color: red;
+    border-color: red;
+}
+span.swift_local_capture_success {
+    color: green;
+    margin: 0 10px;
+}
+span.swift_local_capture_error {
+    color: red;
+    margin: 0 10px;
+}
+@media (max-width: 767px) {
+    .swift_polling_front{display: none;}
+    .modal:before { height: auto !important; }
+    .modal-body{ min-height: 100%; }
+    .swiftcloud_modal .swiftcloud_modal_container{width: 94% !important;}
+}
+
+/* shake animation */
+.shake{
+    -webkit-transform-origin: 50% 0; /* for Safari and older Chrome */
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 0.8s ease-in-out forwards;
+    animation: swinging 0.8s ease-in-out forwards;
+}
+@media (max-width: 640px) {
+    .welcome_capture .wc_inner .wc_form input[type='text'], .welcome_capture .wc_inner .wc_form input[type='email'], .welcome_capture .wc_inner .wc_form input[type='submit'], #WCBtnContainer button{ width: 94%;margin-bottom: 10px;}
+}
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    25%{-webkit-transform: rotate(-5deg)}
+    50%{-webkit-transform: rotate(10deg);}
+    75%{-webkit-transform: rotate(-5deg);}
+    100%{-webkit-transform: rotate(0deg);}
+}
+
+@keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    25%{-webkit-transform: rotate(-5deg)}
+    50%{-webkit-transform: rotate(10deg);}
+    75%{-webkit-transform: rotate(-5deg);}
+    100%{-webkit-transform: rotate(0deg);}
+}

@@ -1,0 +1,52 @@
+.tabwrapper .panel{
+    display:none;
+}
+.tabwrapper .panel.active{
+    display:block;
+}
+.button-orange{
+    background-color: #FF5319;
+    color: #ffffff;
+    border: 1px solid #FF5319;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.button-orange:hover{
+    background-color: #E54510;
+}
+
+
+/*
+ *      dashboard widget
+ */
+.swift_summery_report{ 
+    margin: 10px 0 0;
+    overflow: hidden;
+    padding: 5px;
+    width: 100%;
+}
+.top-lead-page{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    float: left;
+    padding: 5px;
+    width: 46%;
+    margin: 0 15px 0 0;
+}
+.top-lead-title,.top-pages-title{
+    padding: 0 !important;
+}
+.top-lead-list,.top-pages-list{
+    margin: 5px 0 0;
+}
+.top-pages-viewed{
+    padding: 5px;
+    width: 46%;
+    float: left;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}

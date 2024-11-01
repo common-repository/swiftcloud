@@ -1,0 +1,293 @@
+.tabwrapper .panel{
+    display:none;
+}
+.tabwrapper .panel.active{
+    display:block;
+}
+.button-orange{
+    background-color: #FF5319;
+    color: #ffffff;
+    border: 1px solid #FF5319;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.button-orange:hover{
+    background-color: #E54510;
+}
+.swift-round-bg{
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 25px;
+    margin: 0 5px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 25px;
+    background-color: #f9f9f9;
+
+}
+.swift-round-bg span{
+    padding: 2px 0 0;
+}
+.swift-round-bg:hover{
+    opacity: 0.8;
+}
+.swift-round-bg:hover span{
+    color: #fff;
+}
+.blue-bg{
+    background-color: #196abc;
+}
+.red-bg{
+    background-color: #FF0000;
+}
+/*
+ *      dashboard widget
+ */
+.swift_summery_report{
+    margin: 10px 0 0;
+    overflow: hidden;
+    padding: 5px;
+    width: 100%;
+}
+.top-lead-page{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    float: left;
+    padding: 5px;
+    width: 46%;
+    margin: 0 15px 0 0;
+}
+.top-lead-title,.top-pages-title{
+    padding: 0 !important;
+}
+.top-lead-list,.top-pages-list{
+    margin: 5px 0 0;
+}
+.top-pages-viewed{
+    padding: 5px;
+    width: 46%;
+    float: left;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+#wc_bg_color, #wc_text_color,
+#cta_bg_color, #cta_text_color{display: inline !important;}
+#wc_prv_section{
+    display: none;
+    height: 91%;
+    position: fixed;
+    top: 47px;
+    width: 85%;
+    z-index: 999;
+}
+#wc_prv_section .wc_prv_close {
+    margin: 25px 25px 0 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+#wc_prv_section .wc_prv_inner{
+    max-width: 885px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 15%;
+}
+#wc_prv_section .wc_prv_inner .wc_prv_text{
+    font-weight: lighter;
+    font-size: 2.2em;
+}
+#wc_prv_section .wc_prv_inner .wc_prv_form{
+    margin: 50px 0 0 0;
+}
+#wc_prv_section .wc_prv_inner .wc_prv_form input[type='text'],
+#wc_prv_section .wc_prv_inner .wc_prv_form input[type='email']{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #fcfcfc;
+    border-radius: 2em;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    padding: 10px 0 10px 15px;
+    width: 31%;
+}
+#wc_prv_section .wc_prv_inner .wc_prv_form #wc_prv_btn{
+    background: #fcfcfc none repeat scroll 0 0;
+    color: #f16334;
+    font-weight: 600;
+    border: 2px solid #fcfcfc;
+    border-radius: 2em;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    width: 31%;
+    cursor: pointer;
+}
+
+.polling_left{width: 60%;float: left;}
+.polling_right{width: 40%;float: right;}
+.polling_left #polling_queston{width: 100%;}
+#polling_ans_td input[type='text']{width: 60%;}
+#polling_ans_td img{vertical-align: middle;cursor: pointer;}
+.polling_btn{
+    background-color: #FF5319;
+    color: #ffffff;
+    border: 1px solid #FF5319;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.polling_btn:hover{
+    background-color: #E54510;
+}
+.poll_chart_div{
+    text-align: center;
+}
+.poll_result p{text-align: left;}
+.poll_history{overflow: hidden; width: 100%;}
+.polling_history_left{width: 50%;float: left;}
+.polling_history_right{width: 50%;float: right;}
+
+/* social*/
+#sc_social_btn_bg_color,
+#sc_social_text_color{
+    display: inline !important;
+}
+
+/* log pages */
+.swiftpage-title{
+    display: inline-block;
+}
+.export-form{
+    float: right;
+    padding: 10px 0 0;
+}
+#swiftlog-pagination .tablenav-pages .page-numbers{
+    background: #f7f7f7 none repeat scroll 0 0;
+    border-color: #ddd;
+    color: #a0a5aa;
+    height: 17px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-width: 17px;
+}
+#swiftlog-pagination .tablenav-pages .page-numbers.current{
+    background: #e5e5e5 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    height: 17px;
+    min-width: 17px;
+    padding: 5px;
+    text-align: center;
+}
+#swiftlog-pagination .tablenav-pages a:hover{
+    background: #00a0d2 none repeat scroll 0 0;
+    border-color: #5b9dd9;
+    box-shadow: none;
+    color: #fff;
+    outline: 0 none;
+}
+/* call to action preview */
+#cta_prv_section{
+    display: none;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+    background: #fff;
+    color: #000;
+}
+#cta_prv_section .cta_prv_inner{
+
+}
+.add-new-btn-wrap{
+    float: right;
+    margin: 10px 0 10px;
+    text-align: right;
+    width: 100%;
+}
+
+
+
+/* add new modal */
+.swift_gwc{
+    background-color: rgba(0,0,0,0.5); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    display: none;
+    overflow-x: scroll;
+}
+.swift_gwc .swift_gwc_container{
+    width: 800px;
+    height: auto;
+    position: relative;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 3px; 
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+.swift_gwc .swift_gwc_close,
+.swift_gwc .swift_gwc_preview_close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.swift_gwc .swift_gwc_header{
+    padding: 15px 10px 10px;border-bottom: 1px solid #ddd;
+}
+.swift_gwc_header > h2 {
+    line-height: 23px;margin: 0;padding: 0;
+}
+.swift_gwc .swift_gwc_content{
+    padding: 10px 10px 0;
+}
+.swift_gwc .swift_gwc_footer{
+    padding: 10px 10px 15px;border-top: 1px solid #ddd;overflow: hidden;
+}
+.swift_gwc_control_group{
+    margin-bottom: 15px;
+}
+.swift_gwc_control_group label{
+    width: 100px;
+    display: inline-block;
+}
+
+/* help setup */
+.swift-help-setup li input[type="text"]{background-color: #fff;}
+.swift-help-setup ol li{margin-bottom: 10px;}
+
+.swift-help-blue-div{
+    display: block;
+    background-color: rgba(207,226,243,1);
+    padding: 30px;
+    text-align: center;
+}
+.swift-help-blue-div h2{margin: 0 0 15px 0;font-size: 24px;font-weight: normal;}
+.swift-help-blue-div a{font-size: 18px;}
+
+
+/*Shortcode Generator CSS*/
+.sc_quick_form_container_cls{
+    
+}
+.sc_quick_form_container_cls p{
+    width: 100%;
+    word-break: break-all;
+}

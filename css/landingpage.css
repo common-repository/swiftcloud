@@ -1,0 +1,149 @@
+html{height: 100%;}
+body{margin: 0;padding: 0;}
+.sc-landing-main {
+    /*background: url("landing_bg.jpg") no-repeat fixed center center / cover transparent;*/
+    padding:0;margin:0;
+    overflow: auto;
+    height: 100%;
+}
+.sc-wrapper {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+    color: #000000;
+}
+#sc-landingpage {
+    text-align: center;
+}
+#sc-landingpage h1 { color: #000000; margin: 0 0 10px 0; padding: 0 0 15px 0; font-size: 40px; line-height: 40pt; background: url('../images/titlebottom.png') bottom center no-repeat; }
+#sc-landingpage h2 { font-weight: bold; margin: 0; padding: 0 0 15px 0; color: #222; font-size: 24px; line-height: 24pt; }
+#sc-landingpage h3 { font-weight: normal; margin: 0; padding: 0 0 15px 0; color: #222; font-size: 22px; line-height: 22pt; }
+#sc-landingpage h4 { font-weight: normal; margin: 0; padding: 0 0 15px; color: #5E6066;font-size: 16px; line-height: 16pt; }
+#sc-landingpage h5 { font-weight: normal; margin: 0; padding: 0 0 15px; color: #5E6066;font-size: 13px; line-height: 13pt; }
+#sc-landingpage p { margin: 0; padding: 0 0 15px; color: #5E6066;font-size: 10px; line-height: 10px; }
+#sc-landingpage p.sc-privacy { width: 365px;height: 16px; padding: 8px 0 0 35px; margin: 0 auto; color: #A0A5A9;font-size: 11px; line-height: 11pt; text-align: left;}
+#sc-landingpage a { color: #06F; text-decoration: none;}
+#sc-landingpage ul.sc-landing-copyterms li a { color: #eeeeee; text-decoration: none;}
+
+#sc-landingpage .sc-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    margin: 0 auto 10px;
+    min-width: 604px;
+    overflow: hidden;
+    padding: 30px 10px;
+    width: 50%;
+    box-shadow: 0 0 8px #7C7C7C;
+    -webkit-box-shadow: 0 0 8px #7C7C7C;
+    -moz-box-shadow: 0 0 8px #7C7C7C;
+}
+.pnl-left {
+    float: left;
+    width: 48%;
+    padding-left: 2%;
+}
+.pnl-right {
+    float: left;
+    padding-left: 2%;
+    width: 48%;
+}
+.sc-landing-ifram{
+    width: 100%;
+}
+.sc-img{width: 100%;}
+#sc-landingpage .form { padding-bottom: 15px; }
+#sc-landingpage .form label {
+    text-align: left !important;
+    font-size: 18px;
+}
+#pnl-sc-landinpage-field input {
+    display: block;
+    width: 93%;
+}
+#pnl-sc-landinpage-field select {
+    display: block;
+    width: 95%;
+}
+#pnl-sc-landinpage-field label {
+    display: block;
+    font-size: 10px;
+    line-height: 1.3em;
+    text-align: left;
+}
+.btn-edit {
+    /* IE10 Consumer Preview */
+    background-image: -ms-linear-gradient(top, #52C3F4 0%, #006EA1 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #52C3F4 0%, #006EA1 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #52C3F4 0%, #006EA1 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #52C3F4), color-stop(1, #006EA1));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #52C3F4 0%, #006EA1 100%);
+
+    /* W3C Markup, IE10 Release Preview */
+    /*background-image: linear-gradient(to bottom, #52C3F4 0%, #006EA1 100%) !important;*/
+    border: medium none;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius:9px;
+    -webkit-border-radius: 9px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-shadow: 1px 1px #464646;
+    width: 98% !important;
+}
+ul.sc-landing-copyterms {
+    margin: 0 auto;
+    width:516px;
+    color: #000;
+    font-size: 11px;
+    line-height: 11pt;
+    text-align: center;
+    padding: 0;
+}
+ul.sc-landing-copyterms li {
+    display: inline;
+}
+
+.TTWForm .sc-landinpage-field, #form-title.sc-landinpage-field{
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+}
+.TTWForm input, .TTWForm textarea, .TTWForm select, div.selector, div.uploader{
+    border-radius: 0;
+    box-shadow: none;
+    color: #000000;
+    padding: 3px;
+    border: 1px inset #ccc;
+}
+.TTWForm label{
+    color: #535353;
+    margin-bottom: 0px;
+}
+#form_submit_btn{
+    border-radius: 9px;
+    border: medium none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.TTWForm .error{
+    font-size: 10px;
+    position: absolute;
+    right: 17px;
+    top: 0;
+}
